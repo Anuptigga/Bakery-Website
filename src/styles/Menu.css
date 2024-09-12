@@ -1,0 +1,42 @@
+.Menu_card{
+    display:grid;
+    gap:10px;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+}
+.item_1{
+    min-width:600px;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr;
+    border: 2px solid black;
+    grid-column:span 2;
+    grid-row :span 2;
+}
+.food img{
+    height: auto;
+    width: auto;
+}
+.item_2{
+    min-width:600px;
+    border: 2px solid black;
+    grid-column: span 2;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr;
+}
+.item_3{
+    border: 2px solid black;
+    grid-column:span 2;
+    grid-row :span 2; 
+}
+.item_4{
+    border: 2px solid black;
+}
+.item_5{
+    border: 2px solid black;
+}
+.down{
+    height:300px;
+    width:300px;
+}
