@@ -1,8 +1,9 @@
 .home{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     background-image: url("../assets/home.jpg");
     background-size: cover;
+    background-position: top 70% left 10%;
 }
 .hero{
     height: 50vh;
@@ -17,18 +18,26 @@ h1{
     display: flex;
     gap:1rem;
 }
-.btn1{
-    border: none;
-    background-color:wheat;
+ #expo{
+    border:none;
+    background:Wheat;
     padding:20px 40px;
     color:white;
-    font-weight: bold;
-}
-.btn2{
+    font-weight: 400;
+    font-size: large;
+ }
+ #order{
+    background:none;
+    padding: 20px 40px;
+    font-weight: 400;
+    font-size: large;
     color:wheat;
-    padding:20px 30px;
-    background-color: white;
-    border-width:none;
     border-color: wheat;
-    font-weight: bold;
-}
+    border-style:solid;
+ }
+ #expo:hover,#order:hover{
+    background:#DEAC80;
+    color:white;
+    border-color:#DEAC80 ;
+ }
+ 

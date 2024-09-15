@@ -2,9 +2,12 @@
     display:flex;
     align-items: center;
     justify-content: space-between;
-    padding:10px;
-    background:#E3E6F3;
+    padding:5px;
+    background:#F7DCB9;
     box-shadow:0 5px 15px rgba(0,0,0,0.6);
+    position: sticky;
+    top:0;
+    left: 0;
 }
 #nav{
     display:flex;
@@ -25,7 +28,7 @@
 }
 #nav li a:hover,
 #nav li a.active{
-    color:purple;
+    color:#B5C18E;
 }
 #nav li a.active::after,
 #nav li a:hover::after{
@@ -33,7 +36,7 @@
     width: 60%;
     height:2px;
     position:absolute;
-    background:purple;
+    background:#B5C18E;
     bottom:-4px;
     left: 20px;
 }
