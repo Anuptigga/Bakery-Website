@@ -1,0 +1,35 @@
+div{
+    text-align: center;
+}
+.container_process{
+    display:flex;
+    gap:8%;
+    margin-bottom: 5%;
+}
+button{
+    margin:1%;
+}
+.exp{
+    border-color:wheat;
+    border-style: solid;
+    background:wheat;
+    color:white;
+    padding:20px;
+    font-size: 1em;
+}
+.arr{
+    border:none;
+    background:none;
+    font-size: 1em;
+}
+.exp:hover{
+    background: white;
+    color:wheat;
+    border:2px solid wheat;
+}
+#arr{
+    font-size: larger;
+}
+.arr:hover{
+    cursor: pointer;
+}

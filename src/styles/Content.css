@@ -1,14 +1,17 @@
 img{
     width:100%;
 }
+.container{
+    text-align: center;
+}
 .product-grid{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap:20px;
     margin:auto;
-    width:95vw;
-    height:70vw;
+    width:100%;
+    height:80vw;
 }
 .card{
     border:2px solid black;
@@ -39,7 +42,7 @@ img{
     font-size:2vw;
 }
 .small-featured p{
-    font-size:2vh;
+    font-size:2vw;
 }
 .last h2{
     font-size: 2vw;
@@ -59,4 +62,6 @@ img{
 }
 .expo:hover{
     color:#914F1E;
+    cursor:pointer;
+    font-size: x-large;
 }

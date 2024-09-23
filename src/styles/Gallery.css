@@ -1,0 +1,14 @@
+.gallery{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap:10px;
+}
+.column{
+    display:flex;
+    gap:5px;
+    flex-direction: column;
+}
+.photos{
+    width:100%;
+    box-shadow: 0px 0px 10px;
+}

@@ -1,7 +1,12 @@
 import "../styles/Content.css";
 function Content(){
     return (
-        <div class="container">
+        <div>
+            <div class="container">
+                <h2>Delicious</h2>
+                <h1>Indulge in Our Sweet Treats</h1>
+                <h2>From breads to cupcakes, we have it all.</h2>
+            </div>
             <div class="product-grid">
                 <div class="card stacked featured">
                     <div class="card_content">

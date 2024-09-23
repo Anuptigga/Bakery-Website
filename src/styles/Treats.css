@@ -1,0 +1,54 @@
+#treat .cards{
+    display:flex;
+    gap:20px;
+    border:2px solid black;
+    margin:auto;
+    margin-bottom: 20px;
+}
+#treat .texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1em;
+    margin-left: 5%;
+}
+#treat .texts h1, .texts h2{
+    margin:0%;
+}
+#treat h2{
+    font-size: 3em;
+}
+#treat .photo{
+    display: flex;
+    justify-content: center;
+}
+#treat .photo img{
+    width:100%;
+    margin-top: 5%;
+    margin-bottom:5%;
+    object-fit: cover;
+}
+.exp{
+    border-color:wheat;
+    border-style: solid;
+    background:wheat;
+    color:white;
+    padding:20px;
+    font-size: 1em;
+}
+.arr{
+    border:none;
+    background:none;
+    font-size: 1em;
+}
+.exp:hover{
+    background: white;
+    color:wheat;
+    border:2px solid wheat;
+}
+#arr{
+    font-size: larger;
+}
+.arr:hover{
+    cursor: pointer;
+}
